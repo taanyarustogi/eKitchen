@@ -1,0 +1,10 @@
+import SwiftUI
+
+struct ShoppingList: Identifiable, Codable {
+    let id: UUID
+    let name: String
+    var quantity: Double
+    let unit: String
+    var isCompleted: Bool
+}
+
