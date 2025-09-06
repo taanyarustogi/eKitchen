@@ -12,7 +12,7 @@ struct RecipeView: View {
     @State private var selectedServings: Int = 2
     @StateObject private var recipeManager = RecipeManager.shared
     
-    private let apiKey = "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"
+    private let apiKey = "API_KEY_HERE"
     
     private let servingOptions = [1, 2, 3, 4, 5, 6, 7, 8]
     
